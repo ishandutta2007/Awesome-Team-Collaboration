@@ -53,9 +53,9 @@ Below is a comparative breakdown of top commercial team collaboration platforms,
 
 ## 🔓 Open-Source GitHub Projects
 
-Curated list of self-hosted open-source software for team communication, matrix federation, async messaging, and video conferencing. Ordered by **GitHub Stars (Descending)**.
+Curated list of self-hosted open-source software for team communication, matrix federation, async messaging, and video conferencing. Ordered by **GitHub_Stars (Descending)**.
 
-| Project | GitHub Stars | License | Primary Use Case & Architectural Focus |
+| Project | GitHub_Stars | License | Primary Use Case & Architectural Focus |
 | :--- | :--- | :--- | :--- |
 | **[AFFiNE](https://github.com/toeverything/AFFiNE)** | [![AFFiNE Stars](https://img.shields.io/github/stars/toeverything/AFFiNE?style=social&color=white)](https://github.com/toeverything/AFFiNE/stargazers) | MIT | Hyper-fused canvas, docs, and team workspace block editor alternative to Notion & Miro. |
 | **[AppFlowy](https://github.com/AppFlowy-IO/AppFlowy)** | [![AppFlowy Stars](https://img.shields.io/github/stars/AppFlowy-IO/AppFlowy?style=social&color=white)](https://github.com/AppFlowy-IO/AppFlowy/stargazers) | AGPL-3.0 | Open-source Flutter-based workspace for wiki, notes, tasks, and team knowledge bases. |
@@ -116,3 +116,12 @@ Your support is deeply appreciated and fuels further open-source research! 🙌
 ## ⭐ Star History
 
 [![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Team-Collaboration&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Team-Collaboration&type=daee&legend=top-left)
+
+## Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Team-Collaboration&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Team-Collaboration_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Team-Collaboration_growth.svg">
+  </picture>
+</a>
