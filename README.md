@@ -1,245 +1,118 @@
-# Awesome-Team-Collaboration
-
-## Top Team Collaboration Ecosystem
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Team Messaging, Video Meetings & Integrated Workspaces*  
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Team Collaboration**. These tools combine messaging, video meetings, file sharing, and workflow integrations into a unified workspace — replacing email-heavy workflows with real-time communication.
-
-
-
-**Examples** include Microsoft Teams, Slack, Zoom, Webex, Google Meet, Mattermost, Discord, Chanty, Flock, and RingCentral (the category leaders).
-
-
-
-**Open-source emphasis**: Team collaboration is a strong open-source domain. **Mattermost**, **Element (Matrix)**, **Rocket.Chat**, **Nextcloud Talk**, and **Zulip** provide production-grade alternatives to Slack and Teams, with **Jitsi** and **BigBlueButton** covering video conferencing. **Twake Workplace** offers a complete sovereign suite. This section is heavily expanded.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Microsoft Teams](https://www.microsoft.com/microsoft-teams/)**  
-
-  Enterprise collaboration hub integrating chat, video meetings, calling, and Office 365. **Bundled with Microsoft 365** — the default for Microsoft-centric organizations .
-
-
-
-- **[Slack](https://slack.com/)**  
-
-  The pioneer of channel-based team messaging with 2,600+ app integrations, huddles, and Slack Connect for cross-organization collaboration. **The most widely adopted team messaging platform** — free tier with 90-day message history .
-
-
-
-- **[Zoom](https://zoom.us/)**  
-
-  Video-first collaboration platform with meetings, webinars, phone, and chat. **The dominant video conferencing platform** — free tier limits group meetings to 40 minutes .
-
-
-
-- **[Webex](https://www.webex.com/)**  
-
-  Cisco's enterprise collaboration suite with meetings, calling, messaging, and contact center. **Strong in regulated industries** with compliance certifications .
-
-
-
-- **[Google Meet](https://meet.google.com/)**  
-
-  Browser-based video conferencing integrated with Google Workspace. **The simplest video meeting experience** — no downloads required, free tier limits group calls to 60 minutes .
-
-
-
-- **[Discord](https://discord.com/)**  
-
-  Voice, video, and text communication platform with servers, channels, and community features. **The dominant platform for gaming and online communities** — free with Nitro subscription for enhanced features .
-
-
-
-- **[Chanty](https://www.chanty.com/)**  
-
-  Simple AI-powered team chat with built-in task management. **The budget-friendly Slack alternative** — free for up to 10 users .
-
-
-
-- **[Flock](https://flock.com/)**  
-
-  Team messaging with channels, video calls, and productivity integrations. **The lightweight Slack alternative** — free tier available .
-
-
-
-- **[RingCentral](https://www.ringcentral.com/)**  
-
-  Unified communications platform with messaging, video, and phone. **Strong for organizations replacing traditional PBX systems** .
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[Mattermost](https://github.com/mattermost/mattermost)**  
-
-  **The leading open-source enterprise collaboration platform**, MIT licensed (Team Edition) with 30,000+ GitHub stars . **Channels, direct messaging, file sharing, and voice/video calling via plugins** . **Enterprise-grade security** with SOC 2 Type 2, HIPAA, and GDPR compliance options . Deployable on-premises, in your cloud, or via Mattermost Cloud . **The most direct open-source Slack alternative** — used in regulated industries where data sovereignty is mandatory . **Best for organizations needing Slack-like UX with full data control** .
-
-
-
-- **[Element (Matrix)](https://github.com/element-hq/element-web)**  
-
-  **Enterprise-grade messaging and collaboration built on the Matrix protocol**, Apache-2.0 licensed with 12,000+ GitHub stars . **End-to-end encryption by default** with cross-signing verification . **Federated architecture** — connect with other Matrix homeservers for cross-organization collaboration . Features voice/video calling via WebRTC, file sharing, and **bridging to Slack, Teams, Discord, and IRC** . **The most secure open-source messaging platform** — used by governments, militaries, and privacy-critical organizations . **Best for maximum security and federation** .
-
-
-
-- **[Rocket.Chat](https://github.com/RocketChat/Rocket.Chat)**  
-
-  **Open-source team communication platform** with 40,000+ GitHub stars, MIT licensed . **Channels, direct messaging, file sharing, and omnichannel support** (WhatsApp, Instagram, Messenger, SMS) . **Video conferencing via Jitsi integration** and marketplace of 100+ apps . Deployable on-premises or via Rocket.Chat Cloud . **The most feature-diverse open-source Slack alternative** — strong for customer support and omnichannel workflows .
-
-
-
-- **[Zulip](https://github.com/zulip/zulip)**  
-
-  **Open-source team chat with threaded conversations**, Apache-2.0 licensed with 22,000+ GitHub stars . **Topic-based threading** — every message has a topic, making conversations easy to follow asynchronously . **The best choice for distributed teams across time zones** — no more scrolling through endless channels . Used by Rust, Lean, and Wikimedia . **Best for async-first organizations** .
-
-
-
-- **[Nextcloud Talk](https://github.com/nextcloud/spreed)**  
-
-  **Video conferencing and chat integrated with Nextcloud**, AGPL licensed with 1,500+ GitHub stars . **Uses Janus SFU via High Performance Backend** for scale . **Integrates with Nextcloud files, calendar, and contacts** . Supports SIP integration via Talk SIP bridge . **Best for teams already using Nextcloud** — chat, video, and files in one platform .
-
-
-
-- **[Jitsi Meet](https://github.com/jitsi/jitsi-meet)**  
-
-  **The leading open-source video conferencing platform**, Apache-2.0 licensed . **WebRTC-based with no account required** — start a meeting instantly . Features screen sharing, recording, chat, and Etherpad integration . **The de facto open-source Zoom alternative** — self-hostable with Docker . **No time limits, no participant caps** (limited by server capacity) .
-
-
-
-- **[BigBlueButton](https://github.com/bigbluebutton/bigbluebutton)**  
-
-  **The leading open-source platform for online teaching**, LGPL-3.0 licensed . **Whiteboard, breakout rooms, polling, and LTI integration with Moodle** . **The gold standard for virtual classrooms** — designed for teaching interaction, not just meetings . Requires dedicated server resources .
-
-
-
-- **[Twake Workplace](https://github.com/linagora/twake-workplace)**  
-
-  **Sovereign open-source collaborative suite from LINAGORA**, AGPL licensed . **Matrix chat, JMAP email, Drive, and OnlyOffice integration** in one platform . **Positioned as a European alternative to Microsoft 365 and Google Workspace** . SecNumCloud compliance process underway for French sovereignty requirements . **Best for European organizations needing sovereign collaboration** .
-
-
-
-- **[Tchap](https://github.com/tchapgouv/tchap-android)**  
-
-  **French government's secure messaging platform** built on Matrix . **Used by French civil servants** for official communications . **Demonstrates Matrix's viability at government scale** — fork of Element with government-specific customizations .
-
-
-
-- **[Revolt](https://github.com/revoltchat)**  
-
-  **Open-source user-first chat platform** — a modern Discord alternative . **Self-hostable with voice, video, and rich media support** . **Best for gaming and community-oriented servers** wanting Discord-like features with open-source principles .
-
-
-
-### The Protocol Layer: Matrix
-
-
-
-- **[Matrix](https://github.com/matrix-org)**  
-
-  **Open standard for decentralized, end-to-end encrypted communication**, Apache-2.0 licensed . **The protocol behind Element, Tchap, and Twake Workplace** . **Bridges to Slack, Teams, Discord, WhatsApp, and Signal** . **Federation enables cross-organization collaboration** without a central server . **The most important open standard for team collaboration** — backed by the Matrix.org Foundation .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Synapse** — Reference Matrix homeserver, scalable and feature-complete .
-
-- **Dendrite** — Matrix homeserver in Go, lighter than Synapse but less mature .
-
-- **Conduit** — Lightweight Matrix homeserver in Rust, minimal resource usage .
-
-- **Wire** — Secure collaboration platform (now closed-source for enterprise, open-source client available) .
-
-- **Snikket** — Simple, self-hosted XMPP-based chat for families and small groups .
-
-- **Matterbridge** — Bridge between Mattermost, IRC, XMPP, Gitter, Slack, Discord, Telegram, and more .
-
-- **Jitsi Videobridge** — SFU powering Jitsi Meet, can be used standalone .
-
-- **mediasoup** — High-performance SFU library for building custom video apps .
-
-- **Janus** — General-purpose WebRTC server with plugin architecture .
-
-
-
-**Frameworks for building custom team collaboration solutions**: Combine **Mattermost** for enterprise-grade Slack-like messaging with compliance certifications , **Element (Matrix)** for maximum security and federation , and **Zulip** for async-first threaded conversations . For video, deploy **Jitsi Meet** for general meetings or **BigBlueButton** for education . For sovereign European deployments, **Twake Workplace** provides a complete Microsoft 365 alternative . Use **Rocket.Chat** for omnichannel customer support integration . Note that true enterprise collaboration with global infrastructure, AI features, and unified communications (calling + meetings + messaging) remains primarily commercial territory; open-source stacks provide strong messaging, video, and federation foundations that require integration for complete collaboration suites.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Team collaboration platforms handle sensitive communications and files. Self-hosted solutions require proper security hardening, encryption (TLS/SRTP), and compliance with data privacy regulations (GDPR, CCPA, HIPAA).
-
-- **E2E encryption has trade-offs** — Element's default encryption means lost keys cannot be recovered, and server-side search/moderation is limited . Mattermost encrypts in transit but not at rest by default — database encryption is the operator's responsibility .
-
-- **Video conferencing requires bandwidth planning** — Jitsi and BigBlueButton need adequate server resources; SFU deployments scale quadratically with participants .
-
-- **Federation (Matrix) introduces complexity** — cross-server collaboration requires trust management, and bridge maintenance is ongoing .
-
-- The open-source ecosystem provides strong messaging, video, and federation foundations, but **global infrastructure, AI features, and unified communications** remain primarily commercial offerings.
-
-
+# 🚀 Awesome Team Collaboration [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)
+
+![Awesome Team Collaboration Banner](./assets/banner.svg)
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Team-Collaboration/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Team-Collaboration?style=social" alt="Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Team-Collaboration/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Team-Collaboration?style=social" alt="Forks" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
 ---
 
+## 💡 Overview & Ecosystem Insights
 
+Welcome to the definitive, SEO-optimized curated list of **Team Collaboration Software**, **Open-Source Workspace Tools**, **Enterprise Chat Apps**, and **Video Conferencing Systems**. Whether you are looking for enterprise SaaS solutions or privacy-focused self-hosted team communication platforms, this repository provides deep insights into pricing, limits, market valuations, and GitHub star trends.
 
-**Made for IT administrators, remote teams, and organizations seeking communication sovereignty.**  
+### 📊 SaaS Market Size & Industry Structure
+> 📈 **Market Size & Valuation**: The global team collaboration software market is estimated at **$31.5 Billion USD in 2026** (projected to reach over $50B by 2030 at a CAGR of 13.2%).  
+> 🏢 **Market Structure**: The sector is **moderately concentrated** at the top with tech giants (Microsoft, Alphabet, Cisco, Salesforce/Slack) dominating enterprise deployments (winner-takes-most market dynamics), while remaining **moderately fragmented** in niche verticals such as gaming communities (Discord), privacy/sovereignty compliance, and open-source self-hosted solutions.
 
-Let's make team collaboration more open, transparent, and interoperable.
+---
+
+## 📑 Table of Contents
+- [🏢 Enterprise SaaS Platforms](#-enterprise-saas-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🛠️ Key Features & Protocol Layer](#️-key-features--protocol-layer)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚠️ Disclaimer](#️-disclaimer)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⭐ Star History](#-star-history)
+
+---
+
+## 🏢 Enterprise SaaS Platforms
+
+Below is a comparative breakdown of top commercial team collaboration platforms, ordered by **Company Scale (Market Cap / Valuation in Descending Order)**.
+
+| Platform | Company Valuation / Market Cap | Starting Tier Price | Free Tier Limit | Highlights & Key Features |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Microsoft Teams](https://www.microsoft.com/microsoft-teams/)** | **~$3.1 Trillion USD** *(Microsoft)* | **$4.00** / user / mo | 60-min group meeting limit, 100 participants, 5 GB storage | Deep Microsoft 365 integration, audio calling, webinars, enterprise security compliance. |
+| **[Google Meet](https://meet.google.com/)** | **~$2.1 Trillion USD** *(Alphabet)* | **$7.00** / user / mo | 60-min group meeting limit, 100 participants | Browser-based native WebRTC video conferencing bundled with Google Workspace productivity apps. |
+| **[Webex](https://www.webex.com/)** | **~$195 Billion USD** *(Cisco)* | **$11.50** / user / mo | 40-min group meeting limit, 100 participants | Enterprise IP telephony, AI noise removal, high-compliance security for government & enterprise. |
+| **[Slack](https://slack.com/)** | **~$175 Billion USD** *(Salesforce parent)* | **$7.25** / user / mo | 90-day message & file history limit, 10 app integrations, 1:1 huddles, 5 GB storage | Industry-standard channel messaging, 2,600+ app integrations, Slack Connect for inter-company chat. |
+| **[Zoom](https://zoom.us/)** | **~$22 Billion USD** *(Zoom Video Communications)* | **$13.33** / user / mo | 40-min group meeting limit, 100 participants, 1-on-1 calls unlimited | HD video conferencing leader, Zoom Rooms, team chat, phone system, and AI Companion recaps. |
+| **[Discord](https://discord.com/)** | **~$15 Billion USD** *(Private Valuation)* | **$2.99** / month *(Nitro Basic)* | Unlimited 25-person video calls, unlimited messaging, 10MB file uploads | Real-time voice channels, community servers, screen sharing, low-latency audio for gaming & dev communities. |
+| **[RingCentral](https://www.ringcentral.com/)** | **~$3.2 Billion USD** *(RingCentral Inc.)* | **$20.00** / user / mo | No permanent free tier (14-day free trial, max 5 users) | Enterprise cloud PBX replacement, team messaging, HD video meetings, SMS, and global telephony. |
+| **[Flock](https://flock.com/)** | **~$300 Million USD** *(Directi Group)* | **$4.50** / user / mo | 10,000 searchable message limit, 10 public channels, 5 GB total storage | Lightweight team chat, integrated task management, polls, notes, and video calling. |
+| **[Chanty](https://www.chanty.com/)** | **~$15 Million USD** *(Private Valuation)* | **$3.00** / user / mo | Strict 5-user team cap, unlimited message history, 20 GB storage | Budget-friendly AI-powered team chat with Kanban task board and built-in voice/video calls. |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+Curated list of self-hosted open-source software for team communication, matrix federation, async messaging, and video conferencing. Ordered by **GitHub Stars (Descending)**.
+
+| Project | GitHub Stars | License | Primary Use Case & Architectural Focus |
+| :--- | :--- | :--- | :--- |
+| **[AFFiNE](https://github.com/toeverything/AFFiNE)** | [![AFFiNE Stars](https://img.shields.io/github/stars/toeverything/AFFiNE?style=social&color=white)](https://github.com/toeverything/AFFiNE/stargazers) | MIT | Hyper-fused canvas, docs, and team workspace block editor alternative to Notion & Miro. |
+| **[AppFlowy](https://github.com/AppFlowy-IO/AppFlowy)** | [![AppFlowy Stars](https://img.shields.io/github/stars/AppFlowy-IO/AppFlowy?style=social&color=white)](https://github.com/AppFlowy-IO/AppFlowy/stargazers) | AGPL-3.0 | Open-source Flutter-based workspace for wiki, notes, tasks, and team knowledge bases. |
+| **[Plane](https://github.com/makeplane/plane)** | [![Plane Stars](https://img.shields.io/github/stars/makeplane/plane?style=social&color=white)](https://github.com/makeplane/plane/stargazers) | Apache-2.0 | Open-source project planning tool & team issue tracking workspace alternative to Jira & Linear. |
+| **[Rocket.Chat](https://github.com/RocketChat/Rocket.Chat)** | [![RocketChat Stars](https://img.shields.io/github/stars/RocketChat/Rocket.Chat?style=social&color=white)](https://github.com/RocketChat/Rocket.Chat/stargazers) | MIT | Omnichannel customer support, enterprise team chat, Matrix federation, and VoIP integration. |
+| **[Outline](https://github.com/outline/outline)** | [![Outline Stars](https://img.shields.io/github/stars/outline/outline?style=social&color=white)](https://github.com/outline/outline/stargazers) | BSL-1.1 | Fast, collaborative team knowledge base and wiki built with React and Node.js. |
+| **[Nextcloud Talk](https://github.com/nextcloud/spreed)** | [![Nextcloud Spreed Stars](https://img.shields.io/github/stars/nextcloud/spreed?style=social&color=white)](https://github.com/nextcloud/spreed/stargazers) | AGPL-3.0 | Self-hosted video conferencing, SIP bridge, and chat integrated into Nextcloud productivity suite. |
+| **[Focalboard](https://github.com/mattermost-community/focalboard)** | [![Focalboard Stars](https://img.shields.io/github/stars/mattermost-community/focalboard?style=social&color=white)](https://github.com/mattermost-community/focalboard/stargazers) | MIT | Open-source Trello/Asana project management board integrated with Mattermost workspace. |
+| **[Zulip](https://github.com/zulip/zulip)** | [![Zulip Stars](https://img.shields.io/github/stars/zulip/zulip?style=social&color=white)](https://github.com/zulip/zulip/stargazers) | Apache-2.0 | Async-first team chat featuring real-time topic-based threading for distributed organizations. |
+| **[Mattermost](https://github.com/mattermost/mattermost)** | [![Mattermost Stars](https://img.shields.io/github/stars/mattermost/mattermost?style=social&color=white)](https://github.com/mattermost/mattermost/stargazers) | MIT / AGPL | Premier open-source enterprise Slack alternative with SOC2/HIPAA compliance & DevOps workflow tooling. |
+| **[Element (Matrix)](https://github.com/element-hq/element-web)** | [![Element Stars](https://img.shields.io/github/stars/element-hq/element-web?style=social&color=white)](https://github.com/element-hq/element-web/stargazers) | Apache-2.0 | E2EE end-to-end encrypted decentralized client for the Matrix protocol used by military & sovereign govts. |
+| **[BigBlueButton](https://github.com/bigbluebutton/bigbluebutton)** | [![BigBlueButton Stars](https://img.shields.io/github/stars/bigbluebutton/bigbluebutton?style=social&color=white)](https://github.com/bigbluebutton/bigbluebutton/stargazers) | LGPL-3.0 | Virtual classroom and web conferencing platform with multi-user whiteboard, polling, and breakout rooms. |
+| **[Jitsi Meet](https://github.com/jitsi/jitsi-meet)** | [![Jitsi Meet Stars](https://img.shields.io/github/stars/jitsi/jitsi-meet?style=social&color=white)](https://github.com/jitsi/jitsi-meet/stargazers) | Apache-2.0 | Fully encrypted, WebRTC-based video conferencing tool requiring no account registration. |
+| **[Twake Workplace](https://github.com/linagora/twake-legacy)** | [![Twake Stars](https://img.shields.io/github/stars/linagora/twake-legacy?style=social&color=white)](https://github.com/linagora/twake-legacy/stargazers) | AGPL-3.0 | Sovereign European collaborative workplace suite with Matrix messaging, Drive, and OnlyOffice. |
+
+---
+
+## 🛠️ Key Features & Protocol Layer
+
+### 🌐 The Matrix Protocol Layer
+- **[Matrix Protocol Spec](https://github.com/matrix-org)** — Open standard for decentralized, end-to-end encrypted real-time communication.
+- **Synapse** — Reference Matrix homeserver implementation in Python/Rust.
+- **Dendrite** — Second-generation lightweight Matrix homeserver written in Go.
+- **Conduit** — Ultra-lightweight, high-performance Matrix server written in Rust.
+
+---
+
+## 🤝 How to Contribute
+
+1. Fork this repository 🍴
+2. Create a new feature branch (`git checkout -b feature/awesome-tool`) 🌿
+3. Add/edit entries in `README.md` following the standard table formats 📝
+4. Submit a Pull Request with details 🚀
+
+---
+
+## ⚠️ Disclaimer
+
+- This list is **community-curated** for educational, comparison, and architectural research purposes.
+- All brand names, logos, product names, and company valuations belong to their respective corporate entities.
+- Ensure proper security hardening, TLS/SRTP configuration, and data protection compliance (GDPR/HIPAA) when self-hosting open-source communication infrastructure.
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you so much for using and exploring **Awesome Team Collaboration**! 🌟
+
+If you find this repository helpful for your research, team, or project setup, please consider:
+- ⭐ **Starring** this repository on GitHub to show your support.
+- 🍴 **Forking** and sharing it with your colleagues and network.
+- ☕ **Buying me a coffee** or sponsoring ongoing maintenance via [GitHub Sponsors](https://github.com/sponsors/ishandutta2007).
+
+Your support is deeply appreciated and fuels further open-source research! 🙌
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Team-Collaboration&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Team-Collaboration&type=daee&legend=top-left)
